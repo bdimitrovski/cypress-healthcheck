@@ -1,5 +1,5 @@
 # cypress-healthcheck
-The "just add water" website Cypress + Slack reporting healthcheck for your app.
+The "just add water" Cypress + Slack healthcheck reporting tools for your app.
 
 ## Why Cypress.io + Slack?
 
