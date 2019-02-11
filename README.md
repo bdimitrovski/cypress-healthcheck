@@ -13,7 +13,7 @@ This is a perfect use case for Cypress and Slack, to help notify you if any prod
 Simply clone the repo and run:
 
 ```bash
-npm run install
+npm install
 ```
 
 Then, create a `.env` file in your project root, with the Slack Incoming Webhook key:
