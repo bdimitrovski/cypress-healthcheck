@@ -24,7 +24,7 @@ SLACK_WEBHOOK_KEY="YOUR_SLACK_INCOMING_WEBHOOK_KEY"
 
 [How to setup incoming slack webhooks](https://api.slack.com/incoming-webhooks)
 
-This demo uses the [Vue.js HN clone](https://vue-hn.herokuapp.com/top) and `mocha-spec-json-output-reporter` to output and process the test results. Feel free to use any other [reporter](https://docs.cypress.io/guides/tooling/reporters.html)
+This demo uses the [Vue.js HN clone](https://vue-hn.herokuapp.com/top) and `mocha-spec-json-output-reporter` to output and process the test results. Feel free to use any other [reporter](https://docs.cypress.io/guides/tooling/reporters.html) you like.
 
 ## Usage
 
