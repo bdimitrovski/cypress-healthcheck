@@ -1,0 +1,32 @@
+{
+  "name": "cypress-healthcheck",
+  "version": "1.0.0",
+  "description": "The just add water Cypress + Slack healthcheck reports for your app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "healthcheck": "npx cypress run --reporter mocha-spec-json-output-reporter; node utils/reportToSlack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdimitrovski/cypress-healthcheck.git"
+  },
+  "keywords": [
+    "Cypress",
+    "Slack",
+    "healthcheck",
+    "Node.js"
+  ],
+  "author": "Bojan Dimitrovski <b.g.dimitrovski@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdimitrovski/cypress-healthcheck/issues"
+  },
+  "homepage": "https://github.com/bdimitrovski/cypress-healthcheck#readme",
+  "devDependencies": {
+    "cypress": "^3.1.5",
+    "dotenv": "^6.2.0",
+    "mocha-spec-json-output-reporter": "^1.1.6",
+    "slack-webhook": "^1.0.0"
+  }
+}

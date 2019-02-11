@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://vue-hn.herokuapp.com/top",
+  "video": false,
+  "reporter": "mocha-spec-json-output-reporter",
+  "reporterOptions": {
+    "fileName": "health-check.json"
+  }
+}
