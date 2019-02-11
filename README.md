@@ -24,9 +24,11 @@ SLACK_WEBHOOK_KEY="YOUR_SLACK_INCOMING_WEBHOOK_KEY"
 
 [How to setup incoming slack webhooks](https://api.slack.com/incoming-webhooks)
 
+This demo uses the [Vue.js HN clone](https://vue-hn.herokuapp.com/top) and `mocha-spec-json-output-reporter` to output and process the test results. Feel free to use any other [reporter](https://docs.cypress.io/guides/tooling/reporters.html)
+
 ## Usage
 
-You can run this either locally or on your server with a cronjob to automate the test. To run locally, just do a simple:
+You can run this either locally or on your server with a cronjob to automate the tests. To run locally, just do a simple:
 
 ```bash
 npm run healthcheck
