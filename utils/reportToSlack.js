@@ -14,7 +14,7 @@ let title
 
 const data = JSON.parse(report)
 
-if (data.failures.length) {
+if (typeof data !== 'undefined' && data.failures.length) {
   failures = data.failures
   title = '<!channel> ' + 'Failing test(s) for yourawesomeapp.com'
 
