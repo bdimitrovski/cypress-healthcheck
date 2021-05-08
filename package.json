@@ -26,7 +26,7 @@
   "devDependencies": {
     "cypress": "^3.4.0",
     "dotenv": "^6.2.0",
-    "lodash": ">=4.17.19",
+    "lodash": ">=4.17.21",
     "mocha-spec-json-output-reporter": "^1.1.6",
     "slack-webhook": "^1.0.0"
   }
