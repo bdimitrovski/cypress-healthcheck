@@ -7,7 +7,8 @@ The "just add water" Cypress + Slack healthcheck reporting tools for your app.
 
 However, sometimes you just want to check if your production app is alive and kicking, that is, if a user clicks on a certain element does something happen, is the app responsive, are certain critical elements or components present etc.
 
-This is a perfect use case for Cypress and Slack, to help notify you if any production issues occur. Cypress does not have integration with Slack (just yet!), but until their great team builds this for us, you can use this framework to test anything from a simple SPA to a more complex project.
+This is a perfect use case for Cypress and Slack, to help notify you if any production issues occur.
+
 ## Installation
 
 Simply clone the repo and run:
