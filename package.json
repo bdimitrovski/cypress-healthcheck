@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/bdimitrovski/cypress-healthcheck#readme",
   "devDependencies": {
-    "cypress": "^3.4.0",
+    "cypress": "^10.8.0",
     "dotenv": "^6.2.0",
     "lodash": ">=4.17.21",
     "mocha-spec-json-output-reporter": "^1.1.6",
